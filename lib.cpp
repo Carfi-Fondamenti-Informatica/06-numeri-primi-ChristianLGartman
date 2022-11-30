@@ -1,4 +1,7 @@
 #include "lib.h"
+#include<iostream>
+char w;
+using namespace std;
 int numeroprimo (int n) {
     int i=1, x=0;
     if (n>1) {
@@ -9,9 +12,11 @@ int numeroprimo (int n) {
         while (x!=0);
         if (n == i) {
             w = true;
+            cout << "vero" << endl;
         }
         else {
             w = false;
+            cout << "false" << endl;
         }
     }
 }
