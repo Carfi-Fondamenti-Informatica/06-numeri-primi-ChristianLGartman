@@ -1,5 +1,5 @@
-#include "lib.h"
 #include<iostream>
+#include "lib.h"
 char w;
 using namespace std;
 int numeroprimo (int n) {
