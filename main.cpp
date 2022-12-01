@@ -8,4 +8,7 @@ int main() {
     if (w == true) {
         cout << "numero primo" << endl;
     }
+    else {
+    cout << "numero non primo" << endl;
+    }
 }
