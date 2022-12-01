@@ -2,7 +2,6 @@
 #include "numeroprimo.h"
 int main() {
     int h;
-    std::cout << "dimmi un numero" << std::endl;
     std::cin >> h;
     if (numeroprimo(h) == 0) {
         std::cout << "numero primo" << std::endl;
