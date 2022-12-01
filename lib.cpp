@@ -10,11 +10,9 @@ int numeroprimo (int n) {
         }
         while (x!=0);
         if (n == i) {
-            cout<<"vero"<<endl;
             return true;
         }
         else {
-            cout<<"false"<<endl;
             return false;
         }
     }
