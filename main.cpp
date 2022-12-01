@@ -2,12 +2,12 @@
 #include "numeroprimo.h"
 int main() {
     int h;
+    std::cout << "dimmi un numero" << std::endl;
     std::cin >> h;
-    int a = numeroprimo(h);
-    if (a == true) {
+    if (numeroprimo(h) == 0) {
         std::cout << "numero primo" << std::endl;
     }
-    if (a == false) {
+    if (numeroprimo(h) == 1) {
         std::cout << "numero non primo" << std::endl;
     }
 }
