@@ -6,7 +6,8 @@ int main() {
     if (numeroprimo(h) == 0) {
         std::cout << "numero primo" << std::endl;
     }
-    if (numeroprimo(h) == 1) {
+    else {
         std::cout << "numero non primo" << std::endl;
     }
+    return 0;
 }
