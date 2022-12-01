@@ -1,5 +1,5 @@
 #include<iostream>
-#include "numeroprimo.h"
+#include "lib.h"
 int main() {
     int h;
     std::cin >> h;
