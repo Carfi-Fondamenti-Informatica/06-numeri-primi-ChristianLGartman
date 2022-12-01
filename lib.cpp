@@ -12,10 +12,11 @@ bool numeroprimo (int n) {
         while (x!=0);
         if (n == i) {
             risultato=0;
+            return risultato;
         }
         else {
             risultato =1;
-            return risultato
+            return risultato;
         }
     }
 }
