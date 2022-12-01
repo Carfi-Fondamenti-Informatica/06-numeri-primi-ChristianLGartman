@@ -1,7 +1,7 @@
 #include <iostream>
 #include "numeroprimo.h"
 using namespace std;
-int numeroprimo (int n) {
+bool numeroprimo (int n) {
     int i=1, x;
     if (n>1) {
         do {
