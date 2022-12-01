@@ -1,1 +1,2 @@
-bool numeroprimo (int);
+using namespace std;
+char numeroprimo (int );
