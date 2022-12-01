@@ -4,10 +4,11 @@ int main() {
     int h;
     std::cout << "dimmi un numero" << std::endl;
     std::cin >> h;
-    if (numeroprimo(h) == true) {
+    int a = numeroprimo(h);
+    if (a == true) {
         std::cout << "numero primo" << std::endl;
     }
-    if (numeroprimo(h) == false) {
+    if (a == false) {
         std::cout << "numero non primo" << std::endl;
     }
 }
