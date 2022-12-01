@@ -1,14 +1,13 @@
-#include <iostream>
-#include "lib.h"
+#include<iostream>
+#include "numeroprimo.h"
 int main() {
     int h;
-    cout << "dimmi h" << endl;
-    cin >> h;
-    int a = numeroprimo(h);
-    if (w == true) {
-        cout << "numero primo" << endl;
+    std::cout << "dimmi un numero" << std::endl;
+    std::cin >> h;
+    if (numeroprimo(h) == true) {
+        std::cout << "numero primo" << std::endl;
     }
-    else {
-    cout << "numero non primo" << endl;
+    if (numeroprimo(h) == false) {
+        std::cout << "numero non primo" << std::endl;
     }
 }
